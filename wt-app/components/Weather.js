@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Forecast from "./Forcast";
 import { ImageBackground, StyleSheet, Text , View } from "react-native";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 
 export default function Weather(props) {
@@ -22,8 +23,12 @@ export default function Weather(props) {
 
 const styles = StyleSheet.create({
     backdrop: {
-        alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'flex-end',
         width: '100%',
-        height: '100%'
+        height: '100%',
+
+    
     },
 }); 
