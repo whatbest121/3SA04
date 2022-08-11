@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Forecast from "./Forcast";
 import { ImageBackground, StyleSheet, Text , View } from "react-native";
 

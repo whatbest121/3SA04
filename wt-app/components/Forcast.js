@@ -3,7 +3,7 @@ import { Text , View } from "react-native";
 
 export default function Forecast(props) {
     return (
-        <View >
+        <View>
             <Text>{props.main}</Text>
             <Text>{props.description}</Text>
             <View>
