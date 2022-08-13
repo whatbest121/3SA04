@@ -13,7 +13,8 @@ export default function Weather(props) {
                         main: json.weather[0].main,
                         description: json.weather[0].description,
                         temp: json.main.temp,
-                        min: json.main.temp_min
+                        min: json.main.temp_min,
+                        max: json.main.temp_max
                     });
                 })
                 .catch((error) => {
