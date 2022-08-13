@@ -14,7 +14,7 @@ export default function Forecast(props) {
                 <Text style={styles.Text1} >{props.max}  °C</Text>
                 <Text style={styles.Text3} >Wind speed is {props.wind_speed}</Text>
                 <Text style={styles.Text2} >Pressure is {props.pressure}</Text>
-                <Text style={styles.Text2} >Temp feel like is  {props.feel}  °C</Text>
+                <Text style={styles.Text2} >Temp feels like is  {props.feel}  °C</Text>
              </View>
         </View>
     );
