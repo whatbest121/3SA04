@@ -16,7 +16,7 @@ export default function Weather(props) {
                         min: json.main.temp_min,
                         max: json.main.temp_max,
                         wind_speed: json.wind.speed,
-                        time : json.timezone,
+                        pressure : json.main.pressure,
                         feel : json.main.feels_like
                     });
                 })
